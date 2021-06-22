@@ -306,7 +306,7 @@
 
         "bad :length"
         (assoc correct-values :length #?(:clj  2.0
-                                         :cljs "2.0"))
+                                         :cljs 2.1))
 
         "bad :name"
         (assoc correct-values :name 31)
